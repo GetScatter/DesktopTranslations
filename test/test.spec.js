@@ -39,7 +39,11 @@ const languages = files.map(lang => {
 	const name = lang.split('.')[0];
 	const json = require(`../src/languages/${name}`);
 	return {name, json, lang:Locale.fromRaw(json)};
-})
+});
+
+const SPECIALS = [
+	{key:'create_eos_exchange_ex_field_parts', asserter:x => Array.isArray(x()) && x().length === 4}
+]
 
 describe('Locales', () => {
 
@@ -58,7 +62,11 @@ describe('Locales', () => {
 				return null;
 			}).filter(x => x);
 
-			assert(hasAllKeys.length === 0, `"${language.name}" didn't have all the required keys. \r\nMissing: ${hasAllKeys}`)
+			assert(hasAllKeys.length === 0, `"${language.name}" didn't have all the required keys. \r\nMissing: ${hasAllKeys}`);
+
+			SPECIALS.map(x => {
+				assert(x.asserter(language.lang.locales[x.key]), "Could not assert special case: " + x.key);
+			})
 		})
 	});
 
