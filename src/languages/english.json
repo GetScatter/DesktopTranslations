@@ -6,7 +6,6 @@
   ],
 
   "locales":{
-    "generic_back":"Back",
     "generic_confirm":"Confirm",
     "generic_allow":"Allow",
     "generic_deny":"Deny",
