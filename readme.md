@@ -29,6 +29,6 @@ will be injected with the value from the translation.
     "test_key":"You have {x} key{plural_s}",
 }
 
-// This will echo out:
+// This will become:
 // "You have 4 keys"
 ```
