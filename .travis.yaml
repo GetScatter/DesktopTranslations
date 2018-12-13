@@ -1,5 +1,6 @@
+sudo: false
 language: node_js
 node_js:
-- "mocha"
-- "chai"
-- "7"
+- '10.0.0'
+script:
+- npm run test
