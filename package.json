@@ -1,0 +1,19 @@
+{
+  "name": "scatter-translations",
+  "version": "1.0.0",
+  "description": "The first contributor of every new language gets their name in the main `readme.md` file.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "testfile": "mocha",
+    "test": "npm run testfile \"test/**/*.spec.js\" --timeout 1000000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
