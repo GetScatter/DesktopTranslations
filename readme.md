@@ -7,6 +7,9 @@ In order to add translations to Scatter you will need to do the following:
 
 Once you have done that you can then issue a Pull Request with the commits.
 
+### DO NOT REMOVE `{x}` REFERENCES!
+The `{x}` is a special parser that injects variables into the translation. 
+These are usually numbers or token symbols.
 
 ### Helper Methods
 
