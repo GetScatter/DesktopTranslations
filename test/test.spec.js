@@ -70,12 +70,4 @@ describe('Locales', () => {
 		})
 	});
 
-	// it('should be able to import english', () => {
-	// 	let i = 0;
-	// 	Object.keys(English.locales).map(key => {
-	// 		if(i > 25) return;
-	// 		console.log(English.locales[key]());
-	// 	});
-	// });
-
 });
