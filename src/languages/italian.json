@@ -338,6 +338,7 @@
     "processes_acc_left":"Conti rimasti: {x}",
     "snackbar_cop_to_clip":"Copisato sul Clipboard",
     "snackbar_bad_pass":" Password sbagliata",
+    "snackbar_saved_img":"Immagine salvata",
     "snackbar_token_added":"Token aggiunto",
     "snackbar_cont_exists":"Un altro contatto ha gia' questo destinatario",
     "snackbar_cont_name_exists":"Un'altro contatto ha gia' questo nome",
