@@ -1,5 +1,5 @@
 {
-  "name":"German",
+  "name":"Deutsche",
 
   "methods":[
     {"name":"plural_s", "args":"n = 1", "body":"return parseInt(n) === 1 ? '' : 's'"},
