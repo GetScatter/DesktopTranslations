@@ -178,7 +178,7 @@
     "keypair_export_select_key_tit":"Schlüssel",
     "keypair_export_select_key_desc":"Exportiere diesen privaten Schlüssel als Text",
     "keypair_export_select_qr_tit":"Paper Wallet",
-    "keypai r_export_select_qr_desc":"Exportiere diesen privaten Schlüssel als verschlüsselten QR Code",
+    "keypair_export_select_qr_desc":"Exportiere diesen privaten Schlüssel als verschlüsselten QR Code",
     "keypair_export_key_key_tit":"Privater Schlüssel als Text",
     "keypair_export_key_copy_btn":"Kopieren",
     "keypair_export_key_reveal_btn":"Anzeigen",
