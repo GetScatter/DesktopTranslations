@@ -191,7 +191,7 @@
     "identity_disclaimer_sub":"Alle Informationen sind lokal auf deinem Rechner und werden ihn niemals ohne deine Zustimmung verlassen.",
     "identity_name_lbl":"Identitätsname / Benutzername",
     "identity_name_plc":"Deine Onlinepräsenz",
-    "identity_name_err":"Der Identitätsname kann werder leer gelassen werden noch Leerzeichen oder Sonderzeichen enthalten.",
+    "identity_name_err":"Der Identitätsname kann weder leer gelassen werden noch Leerzeichen oder Sonderzeichen enthalten.",
     "identity_personal_name_lbl":"Voller Name",
     "identity_personal_name_plc":"Gib vollen Namen ein",
     "identity_personal_dob_lbl":"Geburtstag",
