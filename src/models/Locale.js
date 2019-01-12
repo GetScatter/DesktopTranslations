@@ -3,7 +3,7 @@ class Locale {
 	constructor(){
 		this.raw = null;
 		this.name = null;
-		this.methods = {};
+		this.methods = [];
 		this.locales = {};
 	}
 	static placeholder(){ return new Locale(); }

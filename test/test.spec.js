@@ -39,7 +39,7 @@ const languages = files.map(lang => {
 	const name = lang.split('.')[0];
 	const json = require(`../src/languages/${name}`);
 	return {name, json, lang:Locale.fromRaw(json)};
-});
+}).filter(x => !!x);
 
 const SPECIALS = [
 	{key:'create_eos_exchange_ex_field_parts', asserter:x => Array.isArray(x()) && x().length === 4}
@@ -53,7 +53,15 @@ describe('Locales', () => {
 		console.log('Method Test: ', test.locales['method_test'](4))
 	});
 
-	it('should be have all keys', () => {
+	it('should have methods of maximum length', () => {
+		languages.map(language => {
+			language.json.methods.map(method => {
+				assert(method.body.length < 100, "Invalid method body length: ", language, method)
+			})
+		})
+	});
+
+	it('should be have all exact keys', () => {
 		languages.map(language => {
 			const hasAllKeys = keys.filter(key => {
 				if(!language.lang.locales.hasOwnProperty(key) || !language.lang.locales[key].length){
@@ -63,6 +71,14 @@ describe('Locales', () => {
 			}).filter(x => x);
 
 			assert(hasAllKeys.length === 0, `"${language.name}" didn't have all the required keys. \r\nMissing: ${hasAllKeys}`);
+
+
+			const hasExtraKeys = Object.keys(language.lang.locales).filter(key => {
+				if(!keys.includes(key)) return key;
+				return null;
+			}).filter(x => x);
+
+			assert(hasExtraKeys.length === 0, `"${language.name}" had extra keys. \r\nExtra: ${hasExtraKeys}`);
 
 			SPECIALS.map(x => {
 				assert(x.asserter(language.lang.locales[x.key]), "Could not assert special case: " + x.key);
