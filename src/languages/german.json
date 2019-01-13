@@ -344,6 +344,8 @@
     "exchange_max": "Max",
     "exchange_exchange_error": "Exchange-Fehler",
     "exchange_cant_connect": "Es kann keine Verbindung zur Exchange-API hergestellt werden",
+    "exchange_disclaimer_tit": "Bitte beachten Sie, dass dies eine Schätzung ist!",
+    "exchange_disclaimer_desc": "Tokenpreise können sich bis jetzt und bis zum Abschluss des Austauschs ändern. Sie erhalten möglicherweise etwas mehr oder weniger als geschätzt.",
     "user_bar_manage_id":"Identität verwalten",
     "processes_fetch_acc_net":"Hole Account für {x}",
     "processes_import_acc_net":"Importiere { Accounts für x",

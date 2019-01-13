@@ -336,6 +336,8 @@
     "exchange_max": "Max",
     "exchange_exchange_error": "Exchange Error",
     "exchange_cant_connect": "Can't connect to the Exhange API.",
+    "exchange_disclaimer_tit": "Please note that this is an estimate!",
+    "exchange_disclaimer_desc": "Token prices could change between now and the time it takes to complete the exchange. You may get slightly more or less than estimated.",
     "user_bar_manage_id": "Manage Identity",
     "processes_fetch_acc_net": "Fetching accounts for {x}",
     "processes_import_acc_net": "Importing { accounts for x",

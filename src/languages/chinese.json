@@ -337,6 +337,8 @@
       "exchange_max": "最大值",
       "exchange_exchange_error": "交换错误",
       "exchange_cant_connect": "无法连接到交换机",
+      "exchange_disclaimer_tit": "请注意，这是估计！",
+      "exchange_disclaimer_desc": "令牌价格可能会在现在和完成交换所需的时间之间发生变化。 您可能会略高于或低于估计值。",
       "user_bar_manage_id":"管理身份",
       "processes_fetch_acc_net":"正在为 {x} 获取账户",
       "processes_import_acc_net":"导入账号中...",
