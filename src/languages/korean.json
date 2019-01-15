@@ -338,8 +338,8 @@
     "exchange_exchange_error": "교환 오류",
     "exchange_cant_connect": "Exchange API에 연결할 수 없습니다.",
 
-    "exchange_disclaimer_tit": "시사회는 사전에 알려지지 않았습니다!",
-    "exchange_disclaimer_desc": "토큰 가격은 현재와 교환을 완료하는 데 걸리는 시간 사이에 변경 될 수 있습니다. 예상보다 약간 더 많거나 적게 나타날 수 있습니다.",
+    "exchange_disclaimer_tit": "이것은 예상 수량이라는 점을 명심하세요!",
+    "exchange_disclaimer_desc": "거래소에서 체결이 완료되는 시점에 따라 토큰 가격은 변경될 수 있습니다. 예상 수량보다 약간 많거나 적게 얻을 수 있습니다.",
     "user_bar_manage_id":"신원 관리",
     "processes_fetch_acc_net":"{x}에서 계정 조회 중",
     "processes_import_acc_net":"{x}에서 계정 가져오는 중",
