@@ -58,7 +58,7 @@
       "generic_contact_name": "联系人姓名",
       "generic_add_contact": "添加联系人",
       "generic_select_token": "选择代币",
-      "generic_display_token": "显示令牌和菲亚特符号",
+      "generic_display_token": "选择显示的代币和法币符号",
       "generic_history": "历史",
       "generic_exchange": "交换",
       "generic_redo": "重做",
