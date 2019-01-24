@@ -47,11 +47,11 @@ const SPECIALS = [
 
 describe('Locales', () => {
 
-	it('should be able to import JSON formatted languages', () => {
-		console.log('Test: ', test.locales['test']())
-		console.log('Argument Test: ', test.locales['fn_test']('Hello'))
-		console.log('Method Test: ', test.locales['method_test'](4))
-	});
+	// it('should be able to import JSON formatted languages', () => {
+	// 	console.log('Test: ', test.locales['test']())
+	// 	console.log('Argument Test: ', test.locales['fn_test']('Hello'))
+	// 	console.log('Method Test: ', test.locales['method_test'](4))
+	// });
 
 	it('should have methods of maximum length', () => {
 		languages.map(language => {
