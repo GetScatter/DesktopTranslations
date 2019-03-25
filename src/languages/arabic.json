@@ -1,0 +1,453 @@
+{
+  "name":"Arabic",
+
+  "methods":[
+    {"name":"plural_s", "args":"n = 1", "body":"return parseInt(n) === 1 ? '' : 's'"}
+  ],
+
+  "locales":{
+    "generic_back": "عودة"،
+    "generic_confirm": "تأكيد"،
+    "generic_allow": "سماح"،
+    "generic_deny": "رفض"،
+    "generic_okay": "حسنًا"،
+    "generic_cancel": "إلغاء"،
+    "generic_open": "فتح"،
+    "generic_yes": "قبول"،
+    "generic_no": "لا"،
+    "generic_enable": "تمكين"،
+    "generic_disable": "تعطيل"،
+    "generic_select": "تحديد"،
+    "generic_unselect": "إلغاء التحديد"،
+    "generic_edit": "تحرير"،
+    "generic_add": "إضافة"،
+    "generic_save": "حفظ"،
+    "generic_new": "جديد"،
+    "generic_delete": "حذف"،
+    "generic_remove": "إزالة"،
+    "generic_remove_all": "إزالة الكل"،
+    "generic_copy": "نسخ"،
+    "generic_import": "استيراد"،
+    "generic_identity": "الهوية"،
+    "generic_export": "تصدير"،
+    "generic_refresh": "تحديث"،
+    "generic_manage": "إدارة"،
+    "generic_private_key": "المفتاح الخاص"،
+    "generic_public_key": "المفتاح العام {plural_المفاتيح العامة}"،
+    "generic_keys": "مفتاح {plural_مفاتيح}"،
+    "generic_hide": "إخفاء"،
+    "generic_reveal": "كشف"،
+    "generic_tokens": "رمز {plural_رموز}"،
+    "generic_network": "شبكة الاتصال {plural_شبكات الاتصال}"،
+    "generic_blockchain": "سلسلةالكتل {plural_سلاسل الكتل}"،
+    "generic_contract": "العقد {plural_العقود}"،
+    "generic_memo": "مذكرة"،
+    "generic_symbol": "علامة"،
+    "generic_decimals": "الكسور العشرية"،
+    "generic_password_or_phrase": "كلمة المرور أو عبارة النسخ الاحتياطي"،
+    "generic_timestamp": "الطابع الزمني"،
+    "generic_chain_id": "معرف السلسلة"،
+    "generic_name": "الإسم",
+    "generic_account": "الحساب {plural_الحسابات}"،
+    "generic_account_name": "اسم الحساب"،
+    "generic_address": "العنوان"،
+    "generic_search": "بحث"،
+    "generic_buy": "اشتري"،
+    "generic_sell": "بيع"،
+    "generic_buying": "شراء"،
+	"generic_selling": "البيع",
+    "generic_my_accounts": "حساباتي"،
+	"generic_contacts": "جهات الإتصال",
+    "generic_open_contacts": "فتح جهات الاتصال"،
+    "generic_contact_name": "اسم جهة الاتصال"،
+    "generic_add_contact": "إضافة جهة اتصال"،
+    "generic_select_token": "حدد الرمز"،
+    "generic_display_token": "رمز العرض ورمز العملات الورقية"،
+	"generic_history": "التاريخ",
+    "generic_exchange": "تداول"،
+    "generic_redo": "تكرار"،
+    "generic_all_networks": "جميع الشبكات"،
+    "generic_refresh_balances": "تحديث الأرصدة"،
+    "generic_browse": "تصفح"،
+    "login_new_tit": "يجب أن تكون جديدًا هنا!"،
+    "login_new_sub": "لنبدأ بإنشاء كلمة مرور ستسخدم لتشفير جميع بياناتك الخاصة. تأكد من أنها قوية."،
+    "login_new_password_lbl": "اختر كلمة مرور"،
+    "login_new_password_plc": "تأكد من أنها كلمة مرور قوية!"،
+    "login_new_password_confirm_lbl": "اكتب كلمة المرور مرة أخرى"،
+    "login_new_password_confirm_plc": "من اللطيف تكرارها مرتين."،
+    "login_new_create_btn": "لننطلق!"،
+    "login_new_restore_backup_btn": "أريد الاستعادة من نسخة احتياطية"،
+    "login_existing_tit": "مرحبًا بك مرة أخرى"،
+    "login_existing_password_plc": "كلمة المرور أو عبارة النسخ الاحتياطي"،
+    "login_existing_reset_btn": "أحتاج إلى إعادة تعيين كلمة المرور الخاصة بي"،
+    "login_restore_tit": "الاستعادة من النسخة الاحتياطية"،
+    "login_restore_sub": "إذا كان لديك نسخة احتياطية لـ Scatter، فيمكنك استيرادها هنا عن طريق تحميلها في Scatter.\n ستظل بحاجة إلى كلمة المرور لإلغاء تأمينها."،
+    "login_restore_choose_btn": "اختر نسخة احتياطية"،
+    "login_restore_back_btn": "عد وابدأ من نقطة الصفر"،
+    "dashboard_keys_search_plc": "مفاتيح البحث"،
+    "dashboard_keys_add_keys": "إضافة مفاتيح"،
+    "dashboard_keys_no_keys": "حسنًا، ما الذي ننتظره؟"،
+    "dashboard_keys_linked_accounts": "{x} حساب مرتبط {plural_حسابات مرتبطة}"،
+    "dashboard_toolbars_send": "إرسال"،
+    "dashboard_toolbars_receive": "إستقبال"،
+    "dashboard_apps_search_plc": "البحث عن التطبيقات"،
+    "dashboard_apps_no_apps_tit": "لا توجد تطبيقات متصلة"،
+    "dashboard_apps_no_apps_desc": "يمكنك استكشاف التطبيقات من خلال البحث عن أشياء مختلفة في حقل البحث أعلاه."،
+    "dashboard_apps_link_perm_only": "إذن الارتباط فقط"،
+    "dashboard_apps_n_permissions": "{x} إذن {plural_أوذنات}"،
+    "dashboard_apps_no_permissions": "لا أذونات"،
+    "dashboard_apps_no_meta": "لا توجد بيانات وصفية"،
+    "add_keys_select_disclaimer": "يتم إنشاء المفاتيح الخاصة محليًا على جهاز الكمبيوتر الخاص بك ولا تلمس الإنترنت أبدًا."،
+    "add_keys_select_create_tit": "إنشاء مفتاح جديد"،
+    "add_keys_select_create_desc": "إذا كنت ترغب في إنشاء مجموعة جديدة من المفاتيح التي يمكنك استخدامها على أي سلسلة كتل.\n\t\t لن تحتوي المفاتيح على رصيد، فهي جديدة تمامًا."،
+    "add_keys_select_create_btn": "إنشاء مفتاح"،
+    "add_keys_select_import_tit": "استيراد مفتاح موجود"،
+    "add_keys_select_import_desc": "إذا كان لديك بالفعل مفتاح وتريد استيراده إلى Scatter"،
+    "add_keys_select_import_btn": "مفتاح الاستيراد"،
+    "add_keys_select_create_eos_tit": "إنشاء حساب EOS جديد"،
+    "add_keys_select_create_eos_desc": "سننشئ بسرعة مفتاحين لك"،
+    "add_keys_select_create_eos_btn": "حساب EOS"،
+    "add_keys_import_name_lbl": "اسم المفتاح"،
+    "add_keys_import_name_plc": "أعط هذا المفتاح اسمًا لتتذكره."،
+    "add_keys_import_text_tit": "استيراد المفتاح الخاص كنص"،
+    "add_keys_import_text_desc": "إذا كنت ترغب في كتابة أو لصق مفتاحك الخاص"،
+    "add_keys_import_text_btn": "نص"،
+    "add_keys_import_hw_tit": "استيراد من المحفظة الباردة"،
+    "add_keys_import_hw_desc": "إذا كان لديك محفظة الأجهزة المدعومة"،
+    "add_keys_import_hw_btn": "الأجهزة"،
+    "add_keys_import_qt_tit": "استيراد مفتاح خاص من رمز الاستجابة السريعة"،
+    "add_keys_import_qr_desc": "إذا كان لديك محفظة QR مشفرة رمز الاستجابة السريعة"،
+    "add_keys_import_qr_btn": "QR"،
+    "add_keys_import_text_key_lbl": "أدخل مفتاح خاص"،
+    "add_keys_import_text_key_plc": "تأكد من إدخاله بشكل صحيح"،
+    "add_keys_import_text_errors_invalid_key_len": "المفتاح الخاص ليس طويلًا بما يكفي ({x})"،
+    "add_keys_import_hw_sel_hard_lbl": "حدد محفظة أجهزة"،
+    "add_keys_import_hw_avail_blok_lbl": "البلوكتشينز المتاحة"،
+    "add_keys_import_hw_idx_lbl": "فهرس المفاتيح/العناوين"،
+    "add_keys_import_hw_hw_err": "خطأ في الأجهزة"،
+    "add_keys_import_hw_unlock_ledger_err": "أنت بحاجة إلى إلغاء قفل محفظة Ledger وفتح {x} تطبيق Ledger."،
+    "add_keys_import_hw_unlock_liq_eos_err": "أنت بحاجة إلى فتح محفظة Liquid EOS Hardware."،
+    "add_keys_eos_keys_owner_desc": "هذا هو مفتاحك الرئيسي الذي لديه سيطرة كاملة على حسابك.\n\t\t لا تحتفظ به في Scatter إلا إذا كنت في حاجة ماسة إليه"،
+    "add_keys_eos_keys_active_desc": "هذا هو المفتاح الذي ستستخدمه مع التطبيقات. إنه ما تريد الاحتفاظ به مستوردًا إلى Scatter."،
+    "add_keys_eos_keys_create_eos_acc_tit": "استخدم هذه المفاتيح لإنشاء حساب EOS."،
+    "add_keys_eos_keys_create_eos_acc_desc": "لا يمكنك استخدام EOS على الفور بالمفاتيح فقط، تحتاج إلى إنشاء حساب للمفاتيح."،
+    "add_keys_eos_keys_create_eos_acc_btn": "إنشاء حساب"،
+    "create_eos_disc_tit": "يجب دفع الحسابات الموجودة على بلوكتشين EOS حتى يمكن استخدامها."،
+    "create_eos_acc_name_len_err": "يجب أن لا يتجاوز اسم الحساب 12 حرفًا."،
+    "create_eos_acc_name_form_err": "يجب أن يكون اسم الحساب أحرفًا صغيرة فقط."،
+    "create_eos_sel_creator_err": "الرجاء تحديد منشئ الحساب أولاً."،
+    "create_eos_check_name_alert": "التحقق من توفر اسم ..."،
+    "create_eos_name_taken_alert": "هذا الاسم مأخوذ بالفعل."،
+    "create_eos_account_acc_lbl": "سيتم استخدام هذا الحساب لإنشاء الحساب"،
+    "create_eos_account_ram_cost_lbl": "تكلفة الذاكرة "RAM" الإلزامية"،
+    "create_eos_account_resources_lbl": "CPU و NET"،
+    "create_eos_account_res_low_err": "يجب تخصيص {x}" على الأقل،
+    "create_eos_account_total_lbl": "الإجمالي"،
+    "create_eos_account_act_bar_btn": "إنشاء حساب"،
+    "create_eos_exchange_change_name": "هل تريد تغيير الأسماء؟"،
+    "create_eos_exchange_info_tit": "يجب أن تدفع مقابل الموارد اللازمة لإنشاء حساب على سلسلة كتل EOS."،
+    "create_eos_exchange_info_sub": "سيتم تحويل جميع الأموال الإضافية التي ترسلها إلى الحساب."،
+    "create_eos_exchange_use_name_btn": "استخدام الاسم"،
+    "create_eos_exchange_ex_field_parts": ["أرسل على الأقل"، "إلى حساب"، "مع"، "كمذكرة"،
+    "create_eos_exchange_sent_tit": "بعد إرسال EOS من منصة التداول مع التفاصيل أعلاه، انسخ معرف المعاملة هنا."،
+    "create_eos_exchange_sent_sub": "يجب أن تنتظر حتى تكون المعاملة غير قابلة للإلغاء، فهذا يستغرق حوالي 3 دقائق."،
+    "create_eos_exchange_act_bar_btn": "إنشاء حساب"،
+    "create_eos_errors_invalid_res": "إما أن CPU أو NET كانت أدنى من أو تساوي 0"،
+    "keypair_name_lbl": "اسم المفتاح"،
+    "keypair_name_plc": "أعط هذا المفتاح اسمًا لتتذكره."،
+    "keypair_dashboard_states_add": "إضافة حساب"،
+    "keypair_dashboard_states_linked": "الحسابات المرتبطة"،
+    "keypair_dashboard_states_keys": "المفاتيح وسلاسل الكتل"،
+    "keypair_dashboard_add_account_create_eos_lbl": "إنشاء حساب EOS جديد"،
+    "keypair_dashboard_add_account_create_eos_desc": "إذا كنت ترغب في إنشاء حساب EOS جديد على نفس هذا المفتاح."،
+    "keypair_dashboard_add_account_create_eos_btn": "إنشاء حساب"،
+    "keypair_dashboard_add_account_link_eos_lbl": "ربط حساب EOS الحالي"،
+    "keypair_dashboard_add_account_link_eos_desc": "إذا كان لديك بالفعل حساب EOS،إلا أنه لا يتم استيراده تلقائيًا."،
+    "keypair_dashboard_add_account_net_acc_lbl": "ربط حساب EOS الحالي"،
+    "keypair_dashboard_errors_invalid_wallet_name": "أدخل اسمًا لهذا المفتاح"،
+    "keypair_dashboard_errors_wallet_name_exists": "يوجد بالفعل مفتاح بهذا الاسم"،
+    "keypair_accounts_search_plc": "حسابات البحث"،
+    "keypair_accounts_view_tokens": "{x} الرمز المميز {plural_الرموز}"،
+    "keypair_accounts_eos_refund_btn": "استرداد"،
+    "keypair_accounts_eos_danger_perms": "كلاهما نشط ومالك على نفس المفتاح."،
+    "keypair_accounts_eos_danger_perms_sub": "فكر في تغيير مفتاح إلى آخر عن طريق النقر فوق الزر\" تغيير الأذونات\ "أدناه."،
+    "keypair_accounts_actions_eos_change_perms_btn": "تغيير الأذونات"،
+    "keypair_accounts_actions_eos_proxy_votes_btn": "أصوات الوكيل"،
+    "keypair_accounts_actions_eos_unlink_acc_btn": "إلغاء ربط الحساب"،
+    "keypair_blockchains_cpy_btn": "نسخ المفتاح العام"،
+    "keypair_export_select_key_tit": "المفتاح"،
+    "keypair_export_select_key_desc": "تصدير هذا المفتاح الخاص كنص"،
+    "keypair_export_select_qr_tit": "محفظة ورقية"،
+    "keypair_export_select_qr_desc": "تصدير هذا المفتاح الخاص كرمز QR مشفر"،
+    "keypair_export_key_key_tit": "المفتاح الخاص كنص"،
+    "keypair_export_key_copy_btn": "نسخ"،
+    "keypair_export_key_reveal_btn": "كشف"،
+    "keypair_export_key_hide_btn": "إخفاء"،
+    "keypair_export_qr_qr_tit": "رمز QR لمحفظة ورقية"،
+    "keypair_export_qr_save_btn": "حفظ كصورة"،
+    "identity_tit": "الهوية"،
+    "identity_disclaimer_tit_imp": "لا شيء مطلوب هنا لاستخدام Scatter"،
+    "identity_disclaimer_tit": "ولكن قد تكون مطلوبة من قبل بعض التطبيقات المتصلة بـ Scatter،\n\t\t على سبيل المثال عند استخدام تطبيق تسوق يحتاج إلى عنوان الشحن الخاص بك."،
+    "identity_disclaimer_sub": "يتم تخزين جميع المعلومات محليًا على جهاز الكمبيوتر الخاص بك ولا يتم إرسالها إلى أي مكان دون موافقتك."،
+    "identity_name_lbl": "اسم الهوية/اسم المستخدم"،
+    "identity_name_plc": "تواجدك عبر الإنترنت"،
+    "identity_name_err": "لا يمكن أن يكون اسم اسم الهوية فارغًا، أو به مسافات، أو أحرف خاصة."،
+    "identity_personal_name_lbl": "الاسم الكامل"،
+    "identity_personal_name_plc": "أدخل اسمك بالكامل"،
+    "identity_personal_dob_lbl": "تاريخ الميلاد"،
+    "identity_personal_email_lbl": "البريد الإلكتروني"،
+    "identity_location_disclaimer_tit": "يمكنك إنشاء مواقع متعددة."،
+    "identity_location_disclaimer_sub": "على سبيل المثال\"الصفحة الرئيسية\"و\"العمل\". ستتمكن من تحديد أي منها لاستخدامه عند الحاجة."،
+    "identity_location_sel_lbl": "المواقع"،
+    "identity_location_sel_add_button": "إضافة"،
+    "identity_location_name_lbl": "اسم الموقع"،
+    "identity_location_name_plc": "الصفحة الرئيسية"،
+    "identity_location_name_err": "يجب ألا تكون أسماء المواقع فارغة."،
+    "identity_location_country_lbl": "البلد"،
+    "identity_location_country_item_none": "بلا"،
+    "identity_location_phone_lbl": "رقم الهاتف"،
+    "identity_location_phone_plc_a": "555"،
+    "identity_location_phone_plc_b": "555"،
+    "identity_location_phone_plc_c": "5555"،
+    "identity_location_adr_lbl": "العنوان"،
+    "identity_location_adr_plc": "5 Broadway"،
+    "identity_location_city_lbl": "المدينة"،
+    "identity_location_city_plc": "نيويورك"،
+    "identity_location_state_lbl": "الحالة"،
+    "identity_location_state_plc": "NY"،
+    "permissions_list_lbl": "أذونات"،
+    "permissions_login_perm": "إذن تسجيل الدخول"،
+    "permissions_accounts_lbl":"الحسابات المقدمة"،
+    "permissions_req_fields_lbl": "الحقول المطلوبة"،
+    "permissions_mutable_fields_lbl": "الحقول القابلة للتغيير"،
+    "permissions_rem_lbl": "إزالة الإذن"،
+    "permissions_rem_white_lbl": "أذونات تسجيل الدخول هي ما يسمح للتطبيقات بالتفاعل مع Scatter الخاص بك.\n يمكنك فرض تسجيل الخروج من أحد التطبيقات عن طريق إزالة هذا الإذن."،
+    "permissions_act_whitelist": "توضع القوائم البيضاء للإجرائات كي لا تضطر إلى الاستمرار في قبول النوافذ المنبثقة لتوقيع المعاملات.\n هل ترغب في إزالة هذه القائمة البيضاء؟"،
+    "Permissions_act_whitelist": "قائمة الإجراءات البيضاء"،
+    "settings_basics": "مبادئ"،
+    "settings_danger_zone": "منطقة الخطر"،
+    "settings_menu_general": "عام"،
+    "settings_menu_language": "اللغة"،
+    "settings_menu_tokens": "الرموز"،
+    "settings_menu_explorers": "مستكشفات الكتل"،
+    "settings_menu_pin": "PIN"،
+    "settings_menu_firewall": "جدار الحماية"،
+    "settings_menu_networks": "الشبكات"،
+    "settings_menu_password": "كلمة المرور"،
+    "settings_menu_backup": "النسخ الاحتياطي"،
+    "settings_menu_destroy": "تدمير المحفظة بالكامل"،
+    "settings_general_version_lbl": "الإصدار"،
+    "settings_general_update_avail": "التحديث متوفر"،
+    "settings_general_no_update_avail": "لا يوجد تحديث متوفر"،
+    "settings_general_white_noti_lbl": "تنبيهات القائمة البيضاء"،
+    "settings_general_white_noti_desc": "تظهر هذه الإشعارات في أنظمة تشغيل معينة عند تسجيلك للمعاملات المدرجة في القائمة البيضاء تلقائيًا."،
+    "settings_general_data_path_lbl": "مسار البيانات"،
+    "settings_general_data_path_desc": "الموقع الذي يحفظ به Scatter بياناته المشفرة على جهاز الكمبيوتر الخاص بك."،
+    "settings_general_dev_console_lbl": "لوحة تحكم المطور"،
+    "settings_general_dev_console_desc": "في بعض الأحيان قد تحتاج إلى معرفة ما إذا كان Scatter يحدث أي أخطاء."،
+    "settings_general_dev_console_btn": "فتح لوحة التحكم"،
+    "settings_language_lbl": "اختر اللغة"،
+    "settings_tokens_switch_add_token": "إضافة رمز"،
+    "settings_tokens_switch_whitelist": "الرموز"،
+    "settings_tokens_switch_blacklist": "Filtered"،
+    "settings_tokens_switch_settings": "الإعدادات"،
+    "settings_tokens_add_token_disclaimer": "إضافة الرموز ستسمح لك بإرسالها وإظهار أرصدتها."،
+    "settings_tokens_add_token_tok_name_plc": "سمي هذا الرمز المميز أو اتركه فارغًا لاستخدام الرمز الخاص به."،
+    "settings_tokens_add_token_tok_name_lbl": "اسم الرمز"،
+    "settings_tokens_add_token_white_tok_btn": "القائمة البيضاء للرموز"،
+    "settings_tokens_add_token_black_tok_btn": "القائمة السوداء للرموز"،
+    "settings_tokens_settings_main_bal_dis_lbl": "عرض الرصيد الرئيسي"،
+    "settings_tokens_settings_main_bal_dis_desc": "يمكنك تعيين ما إذا كنت تريد رؤية الأرصدة لجميع الشبكات في لوحة المعلومات الرئيسية، أو فقط أرصدة الشبكات الرئيسية."،
+    "settings_tokens_settings_main_bal_dis_main_btn": "إظهار جميع الشبكات"،
+    "settings_tokens_settings_main_bal_dis_main_desc": "يعني عرض الرموز الرئيسية فقط أن Scatter لن تستخدم الرموز المميزة للسلسلة البديلة أو سلسلة testnet لحساب إجمالي الأرصدة."،
+    "settings_tokens_settings_main_bal_dis_all_btn": "عرض الشبكات الرئيسية فقط"،
+    "settings_tokens_settings_main_bal_dis_all_desc": "إظهار جميع الشبكات يعني أن Scatter سيأخذ كل شبكة في الاعتبار عند حساب إجمالي الأرصدة."،
+    "settings_tokens_settings_filter_small_bal_lbl": "تصفية الأرصدة الصغيرة"،
+    "settings_tokens_settings_filter_small_bal_desc": "إذا كنت تريد دائمًا تصفية الرموز المميزة ذات الأرصدة الصغيرة، يمكنك تعيين معدِّل هنا."،
+    "settings_tokens_white_black_tok_filter_lbl": "تصفية الرموز بواسطة البلوكتشين"،
+    "settings_tokens_white_black_tok_search_plc": "البحث عن الرموز"،
+    "settings_tokens_white_black_whitelist_disclaimer": "حدد أي رمز مميز أو عملة لجعلها نوع العرض الرئيسي الخاص بك."،
+    "settings_tokens_white_black_whitelist_fiat_curr_lbl": "عرض كعملة ورقية"،
+    "settings_tokens_white_black_whitelist_sys_tok_lbl": "رموز النظام"،
+    "settings_tokens_white_black_whitelist_cus_tok_lbl": "الرموز المميزة"،
+    "settings_tokens_white_black_blacklist_disclaimer": "لا يمكنك تصفية الرموز المميزة للنظام لشبكاتك."،
+    "settings_pin_label": "تغيير رقم التعريف الشخصي"،
+    "settings_pin_desc": "رمز PIN الخاص بك هو كلمة مرور داخلية ثانوية للقيام بالتحويلات."،
+    "settings_pin_desc_red": "لا تجعل رقم التعريف الشخصي هو نفسه كلمة المرور الخاصة بك!"،
+    "settings_pin_placeholder": "PIN معطل"،
+    "settings_pin_save_snack": "PIN المحفوظة"،
+    "settings_pin_pin_4_all_tit": "استخدم PIN لجميع التفاعلات."،
+    "settings_pin_pin_4_all_desc": "إذا قمت بتمكين هذا، فستحتاج أيضًا إلى إدخال رقم التعريف الشخصي لكل نافذة منبثقة."،
+    "settings_networks_switch_known": "الشبكات المعروفة"،
+    "settings_networks_switch_custom": "شبكاتك"،
+    "settings_networks_known_add_label": "إضافة شبكة معروفة"،
+    "settings_networks_known_add_desc": "يمكنك إضافة شبكات بلوكتشين واسعة الإنتشار بسهولة دون الحاجة إلى إدخال تفاصيلها يدويًا."،
+    "settings_networks_custom_name_plc": "الشبكة المحلية"،
+    "settings_networks_custom_host_lbl": "المضيف (domain.com أو IP)"،
+    "settings_networks_custom_proto_lbl": "البروتوكول"،
+    "settings_networks_custom_port_lbl": "المنفذ"،
+    "settings_networks_custom_chain_id_tool": "إحضار معرف السلسلة"،
+    "settings_networks_custom_from_origin_plc": "من الأصل"،
+    "settings_networks_custom_cus_sys_tok_lbl": "رمز النظام المخصص"،
+    "settings_networks_custom_cus_sys_tok_desc": "في بعض الحالات، قد تحتاج إلى تغيير الرمز المميز للنظام."،
+    "settings_networks_custom_cus_sys_tok_def_btn": "استخدام رمز النظام الافتراضي"،
+    "settings_networks_custom_cus_sys_tok_use_cus_btn": "استخدام رمز النظام المخصص"،
+    "settings_networks_custom_using_cus_sys_tok": "تستخدم هذه الشبكة رمزًا مميزًا."،
+    "settings_password_cng_pass_lbl": "تغيير كلمة المرور الخاصة بك"،
+    "settings_password_cng_pass_desc": "في كل مرة تقوم فيها بتغيير كلمة مرورك، ستحصل على Mnemonic\n\t\t (عبارة إسترجاع جديدة) وهي كلمة المرور البديلة لإلغاء قفل Scatter."،
+    "settings_password_new_pass_lbl": "كلمة مرور جديدة"،
+    "settings_password_new_pass_plc": "كلمة المرور"،
+    "settings_password_conf_pass_lbl": "تأكيد كلمة المرور الجديدة"،
+    "settings_password_conf_pass_plc": "أعد كتابة كلمة المرور"،
+    "settings_password_cng_pass_btn": "تغيير كلمة المرور"،
+    "settings_password_view_mne_lbl": "عرض عبارة الإسترجاع"،
+    "settings_password_view_mne_desc": "إذا فقدت بديل كلمة المرور الخاص بك، فيمكنك مشاهدته هنا."،
+    "settings_password_view_mne_btn": "عرض عبارة الإسترجاع"،
+    "settings_password_changed_pass_snack": "تم تغيير كلمة المرور"،
+    "settings_backup_lbl": "تكوين النسخ الاحتياطية"،
+    "settings_backup_desc": "تتيح لك النسخ الاحتياطية حفظ حالة Scatter بالكامل بما في ذلك جميع المفاتيح،\n\t\tpermissions والإعدادات."،
+    "settings_backup_auto_backup_lbl": "موقع النسخ الاحتياطي التلقائي"،
+    "settings_backup_create_backup_btn": "إنشاء نسخة احتياطية"،
+    "settings_backup_curr_backup_lbl": "مجلد النسخ الاحتياطي الحالي"،
+    "settings_firewall_enabled_lbl": "تمكين جدار الحماية"،
+    "settings_firewall_enabled_desc": "RIDL Defender هو نظام جدار الحماية اللامركزي الScatter التابع لـ Scatter. إنه يساعد على حمايتك من المواقع والتطبيقات والحسابات الضارة."،
+    "settings_destroy_lbl": "تكوين"،
+    "settings_destroy_desc": "سيؤدي تدمير Scatter الخاص بك إلى إزالة جميع بياناتك بما في ذلك الهويات وتهيئة زوج المفاتيح\n\t\t من جهازك المحلي.\n لن يحذف حسابات البلوكتشين الخاصة بك من البلوكتشين الفعلي."،
+    "settings_destroy_imp": "تأكد من حصولك على نسخة احتياطية قبل القيام بذلك!"،
+    "settingsy_btn": "تدمير Scatter"،
+    "history_clearing_history": "مسح السجل"،
+    "history_clearing_history_txt": "يتم تخزين السجل في Scatter محليًا فقط. إذا قمت بمسحه، فلن تتمكن من استعادته."،
+    "tokens_set_display_tokens": "تعيين رموز العرض"،
+    "tokens_fiat_currency": "عملة ورقية"،
+    "tokens_system_tokens": "رموز النظام"،
+    "transfer_send_btn": "إرسال الرموز"،
+    "transfer_sender": "المرسل"،
+    "transfer_recipient": "المستلم"،
+    "transfer_memo_placeholder": "مذكرة اختيارية"،
+    "exchange_exchange_btn": "تداول الرموز"،
+    "exchange_exchanging": "تبادل"،
+    "exchange_receiving": "استقبال"،
+    "exchange_to": "إلى"،
+    "exchange_fetching_pairs": "جلب الأزواج"،
+    "exchange_fetching_rate": "معدل الجلب"،
+    "exchange_select_pair": "حدد الزوج"،
+    "exchange_no_rates": "لا توجد أسعار"،
+    "exchange_min": "Min"،
+    "exchange_max": "Max"،
+    "exchange_exchange_error": "خطأ في التداول"،
+    "exchange_cant_connect": "لا يمكن الاتصال بالـAPI الخاص بمنصة التداول."،
+    "exchange_disclaimer_tit": "يرجى ملاحظة أن هذا تقديري!"،
+    "exchange_disclaimer_desc": "يمكن أن يتغير سعر الرمز من الآن وحتى الوقت الذي تستغرقه لإتمام عملية التبادل. قد تحصل على أكثر أو أقل بقليل من المقدرة."،
+    "user_bar_manage_id": "إدارة الهوية"،
+    "operations_fetch_acc_net": "جلب الحسابات لـ {x}"،
+    "operations_import_acc_net": "استيراد {accounts for x"،
+    "operations_imp_accs": "استيراد الحسابات"،
+    "operations_load_res": "تحميل موارد الحساب"،
+    "operations_acc_left": "الحسابات المتبقية: {x}"،
+    "snackbar_cop_to_clip": "تم النسخ إلى الحافظة"،
+    "snackbar_bad_pass": "كلمة مرور غير صالحة"،
+    "snackbar_saved_img": "الصورة محفوظة"،
+    "snackbar_token_added": "تمت إضافة الرمز"،
+    "snackbar_cont_exists": "جهة اتصال أخرى لديها بالفعل هذا المستلم"،
+    "snackbar_cont_name_exists": "جهة اتصال أخرى لديها هذا الاسم بالفعل"،
+    "snackbar_network_miss_name": "يجب أن يكون للشبكة اسم"،
+    "snackbar_network_miss_host": "يجب أن يكون لدى الشبكة مضيف"،
+    "snackbar_network_miss_port": "يجب أن يكون للشبكة منفذ صالح"،
+    "snackbar_network_miss_chain": "يجب أن تحتوي الشبكة على معرف سلسلة"،
+    "snackbar_network_chain_exists": "توجد بالفعل شبكة بها معرف السلسلة"،
+    "snackbar_network_name_exists": "شبكة بهذا الاسم موجودة بالفعل"،
+    "snackbar_network_saved": "تم حفظ الشبكة!"،
+    "snackbar_network_deleted": "الشبكة محذوفة!"،
+    "snackbar_tokens_miss_symbol": "يجب إضافة شعار الرمز المميز"،
+    "snackbar_tokens_miss_contract": "يجب إضافة عقد رمز مميز"،
+    "snackbar_tokens_exists_added": "هذا الرمز المميز موجود بالفعل في الرموز المضافة"،
+    "snackbar_tokens_exists_filtered": "الرمز موجود بالفعل في الرموز المميزة التي تمت تصفيتها"،
+    "snackbar_auth_locked_out": "لقد تم منعك مؤقتًا"،
+    "snackbar_auth_err_parse_backup": "خطأ في تحليل ملف النسخ الاحتياطي"،
+    "snackbar_auth_err_decr_backup": "خطأ في فك تشفير ملف النسخ الاحتياطي"،
+    "snackbar_auth_cant_read_backup": "لا يمكن قراءة ملف النسخ الاحتياطي"،
+    "snackbar_auth_pass_len": "يجب أن يكون طول كلمات المرور 8 أحرف على الأقل"،
+    "snackbar_auth_bad_conf": "التأكيد لا يطابق كلمة المرور"،
+    "popouts_req_fields_per_info": "المعلومات الشخصية"،
+    "popouts_req_fields_loc_info": "معلومات الموقع"،
+    "popouts_login_acc_reqs": "التطبيق يتطلب حسابات لهذه الشبكات"،
+    "popouts_login_no_accs_tit": "ليس لديك حسابات بلوكتشين للشبكات التي يتطلبها هذا التطبيق."،
+    "popouts_login_no_accs_desc": "قبل تسجيل الدخول إلى هذا التطبيق، عد إلى Scatter واستورد بعض المفاتيح للشبكة او البلوكتشين التي يستخدمها هذا التطبيق."،
+    "popouts_login_miss_fields_tit": "نسيت ان تملأ بعض الحقول!"،
+    "popouts_login_miss_fields_desc": "املأ المدخلات أدناه التي ستضيف هذه الحقول إلى هويتك لاستخدامها لاحقًا وإعادتها أيضًا إلى التطبيق."،
+    "popouts_login_login_btn": "تسجيل الدخول"،
+    "popouts_login_show_all_accs": "إظهار الكل"،
+    "popouts_login_filter_accs": "تصفية"،
+    "popouts_get_key_gen_key_btn": "إنشاء مفتاح جديد"،
+    "popouts_get_key_search_plc": "مفاتيح البحث"،
+    "popouts_link_app_app_key": "مفتاح التطبيق"،
+    "popouts_link_app_disclaimer": "تأكد من أن اسم التطبيق هو نفس التطبيق الذي تتفاعل معه الآن."،
+    "popouts_signature_acts_total": "{x} الإجراءات الإجمالية"،
+    "popouts_signature_accs_involved": "الحسابات المعنية"،
+    "popouts_signature_keys_involved": "المفاتيح المعنية"،
+    "popouts_signature_arb_dis_tit": "تم تعطيل التوقيع التعسفي!"،
+    "popouts_signature_arb_dis_desc": "لحمايتك، قمنا بتعطيل القدرة على توقيع بيانات تعسفية أطول من 12 حرفًا لكل كلمة."،
+    "popouts_signature_whitelist_desc": "القائمة البيضاء ليست مضطرة لقبول المرة القادمة"،
+    "popouts_signature_dis_white_btn": "تعطيل القائمة البيضاء"،
+    "popouts_signature_enbl_white_btn": "تمكين القائمة البيضاء"،
+    "popouts_signature_prev_whitelist": "تم إدراج هذا الإجراء من قبل في القائمة البيضاء."،
+    "popouts_signature_hid_act": "الإجراء مخفي"،
+    "popouts_transfer_sending_to": "إرسال {x} إلى"،
+    "popouts_transfer_search_plc": "حسابات البحث"،
+    "popins_fullscreen_check_hardware_tit": "التحقق من الأجهزة"،
+    "popins_fullscreen_check_hardware_desc": "يجب أن ترى تأكيدًا على جهازك."،
+    "popins_fullscreen_confirm_pass_tit": "تأكيد كلمة المرور"،
+    "popins_fullscreen_confirm_pass_lbl": "أدخل كلمة المرور أو عبارة النسخ الاحتياطي"،
+    "popins_fullscreen_destroy_tit": "تدمير Scatter"،
+    "popins_fullscreen_destroy_disc": "قبل القيام بذلك، تأكد من عمل نسخة احتياطية من جميع المفاتيح الخاصة."،
+    "popins_fullscreen_destroy_desc": "تدمير Scatter أمر لا رجعة فيه، ولن تتمكن من استعادة أي بيانات دون نسخ احتياطية."،
+    "popins_fullscreen_whitelisting_tit": "القائمة البيضاء الممكّنة"،
+    "popins_fullscreen_whitelisting_desc": "لن تضطر إلى الاستمرار في الموافقة على إجراءات التطبيقات التي تثق بها.\n\t\t عندما تظهر الإجراءات في القائمة البيضاء ستظهر مربعات اختيار بجانب كل إجراء وقيمة."،
+    "popins_fullscreen_whitelisting_act_lbl": "سيتم إدراج هذا الإجراء في القائمة البيضاء"،
+    "popins_fullscreen_whitelisting_mutable_prop": "ستكون هذه القيمة قابلة للتغيير بدون نافذة منبثقة"،
+    "popins_fullscreen_whitelisting_immutable_prop": "إذا كانت هذه التغييرات ستحتاج إلى الموافقة على الإجراء مرة أخرى"،
+    "popins_fullscreen_eos_available": "متوفر {x}"،
+    "popins_fullscreen_eos_reclaim": "طلب سعادة {x}"،
+    "popins_fullscreen_eos_change_perms_tit": "تغيير أذونات الحساب"،
+    "popins_fullscreen_eos_change_perms_desc": "تغيير أذونات حسابك يعني تغيير المفاتيح التي تشغل الحساب."،
+    "popins_fullscreen_eos_change_perms_sub_desc": "يمكنك ترك أي حقل فارغًا للاحتفاظ بالإذن الحالي."،
+    "popins_fullscreen_eos_change_perms_keys_lbl": "المفاتيح المستوردة"،
+    "popins_fullscreen_eos_change_perms_key_plc": "أدخل مفتاحًا عامًا أو اسم حساب"،
+    "popins_fullscreen_eos_change_perms_owner_lbl": "المالك"،
+    "popins_fullscreen_eos_change_perms_active_lbl": "نشط"،
+    "popins_fullscreen_eos_change_perms_btn": "تغيير الأذونات"،
+    "popins_fullscreen_eos_mod_cpunet_stake": "تخصيص"،
+    "popins_fullscreen_eos_mod_cpunet_unstake": "إلغاء الاشتراك"،
+    "ins_fullscreen_eos_mod_cpunet_stake_desc": "CPU حصتك في المعالجة والشبكة ستسمح لهذا الحساب بعمل المزيد من الإجرائات على البلوكتشين."،
+    "popins_fullscreen_eos_mod_cpunet_unstake_desc": "سيؤدي إلغاء CPU و NET إلى استعادة الرموز المميزة، ولكنه سيسمح لك بعمل إجرائات أقل."،
+    "popins_fullscreen_eos_mod_ram_buy_desc": "شراء الذاكرة "RAM" سيتيح لهذا الحساب الاحتفاظ بمزيد من البيانات على البلوكتشين."،
+    "popins_fullscreen_eos_mod_ram_sell_desc": "بيع الذاكرة "RAM" لهذا الحساب بالسعر الحالي للذاكرة."،
+    "popins_fullscreen_eos_mod_ram_bytes_err": "يجب أن يتجاوز حجم البايتات 15"،
+    "popins_fullscreen_eos_proxy_tit": "أصوات الوكيل"،
+    "popins_fullscreen_eos_proxy_repro_tit": "هل ترغب في إعادة الوكيل تلقائيًا كل 7 أيام؟"،
+    "popins_fullscreen_eos_proxy_repro_desc": "إذا قمت بتمكين هذا، فإن قبول المعاملة الأولية يقبل أيضًا جميع المعاملات المستقبلية."،
+    "popins_fullscreen_eos_proxy_lbl": "وكيل"،
+    "popins_fullscreen_eos_proxy_plc": "أدخل اسم حساب الوكيل"،
+    "popins_fullscreen_eos_proxy_known_prox_lbl": "وكلاء معروفون"،
+    "popins_fullscreen_eos_proxy_btn": "ضع وكالة"،
+    "popins_fullscreen_mnemonic_tit": "كلمة مرور بديلة"،
+    "popins_fullscreen_mnemonic_desc": "هذه العبارة هي نسخة احتياطية لكلمة المرور الخاصة بك. ولا تُستخدم لإنشاء المفاتيح."،
+    "popins_fullscreen_mnemonic_sub_desc": "يمكنك لصق هذه العبارة في أي حقل يقبل كلمة مرور في Scatter."،
+    "popins_fullscreen_remove_key_tit": "إزالة المفاتيح"،
+    "popins_fullscreen_remove_key_disc": "إزالة المفاتيح يزيل أيضًا جميع حساباته وأذونات التطبيق الخاصة به."،
+    "popins_fullscreen_remove_location_tit": "إزالة الموقع"،
+    "popins_fullscreen_unlink_account_tit": "إلغاء ربط الحسابات"،
+    "popins_fullscreen_unlink_account_desc": "تؤدي إزالة الحساب المرتبط أيضًا إلى إزالة جميع أذونات التطبيق الخاصة به"،
+    "popins_fullscreen_unlink_account_sub_desc": "حدد جميع السلطات التي تريد إزالتها."،
+    "popins_fullscreen_unlink_account_auth_lbl": "المراجع"،
+    "popins_fullscreen_unlink_blockchain_tit": "فك ربط بلوكتشين"،
+    "popins_fullscreen_unlink_blockchain_disc": "يؤدي إلغاء ربط البلوكتشين أيضًا إلى إزالة جميع حساباته وأذونات التطبيق الخاصة به."،
+    "popins_overlay_conf_pin": "تأكيد رقم التعريف الشخصي"،
+    "popins_overlay_remove_app_tit": "إزالة التطبيق"،
+    "popins_overlay_remove_app_desc": "أنت على وشك إزالة هذا التطبيق من Scatter الخاص بك. سيؤدي ذلك أيضًا إلى إزالة جميع أذونات القائمة البيضاء."،
+    "popins_overlay_trx_success_tit": "عملية ناجحة!"،
+    "popins_overlay_trx_success_desc": "انقر على الرابط أدناه لعرضه على {x}"،
+    "popins_overlay_update_avail_tit": "تحديث متوفر لـ Scatter"،
+    "popins_overlay_update_avail_click_link": "انقر على الرابط أدناه للانتقال إلى صفحة التنزيلات"
+  }
+}
